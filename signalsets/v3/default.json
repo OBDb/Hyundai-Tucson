@@ -13,6 +13,10 @@
     {"id": "TUCSON_TP_FR", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "TUCSON_TP_RL", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "TUCSON_TP_RR", "path": "Tires", "fmt": {"bix": 224, "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "ED03"}, "freq": 5,
+  "signals": [
+    {"id": "TUCSON_ODO", "path": "Control", "fmt": {"bix": 392, "len": 64, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]}
 ]
 }
