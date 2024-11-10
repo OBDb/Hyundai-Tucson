@@ -1,2 +1,10 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "7D6", "rax": "7DE", "cmd": {"21": "06"}, "freq": 15,
+  "signals": [
+    {"id": "TUCSON_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "TUCSON_TP_FR", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "TUCSON_TP_RL", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "TUCSON_TP_RR", "path": "Tires", "fmt": {"bix": 224, "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"}
+  ]}
+]
 }
