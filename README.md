@@ -4,7 +4,7 @@ This repository contains signal set configurations for the Hyundai Tucson, organ
 
 ## Related vehicles
 
-- https://github.com/OBDb/Hyundai-Tucson
+- https://github.com/OBDb/Hyundai-Tucson-Hybrid
 
 ## Generations
 
