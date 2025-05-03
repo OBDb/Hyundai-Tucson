@@ -1,0 +1,20 @@
+generations:
+  - name: "First Generation (JM)"
+    start_year: 2004
+    end_year: 2009
+    description: "The original Hyundai Tucson was introduced as a compact crossover SUV, positioned below the Santa Fe in Hyundai's lineup. Featuring conventional SUV styling with a boxy profile and traditional proportions, it aimed to offer SUV practicality in a smaller, more affordable package. Built on a platform shared with the Elantra, it was available with a range of four-cylinder and V6 engines depending on the market, offering front-wheel or all-wheel drive configurations. The interior was practical but basic, with a focus on durability over luxury. Safety features were relatively advanced for its price point, with standard stability control and six airbags in many markets. This generation established the Tucson nameplate in Hyundai's global lineup, offering an entry-level option for customers seeking SUV styling and versatility."
+
+  - name: "Second Generation (LM)"
+    start_year: 2009
+    end_year: 2015
+    description: "The second-generation Tucson (sold as the ix35 in some markets) featured more modern, fluid styling that aligned with Hyundai's emerging design language. Built on an updated platform, it offered improved handling, refinement, and fuel efficiency. Engine options varied by market but typically included enhanced four-cylinder units in both gasoline and diesel variants, with V6 options largely dropped. The interior saw significant improvements in design, materials, and feature content, reflecting Hyundai's overall push upmarket during this period. Technology features expanded to include available navigation, backup camera, and premium audio systems. This generation elevated the Tucson's position in the competitive compact crossover segment, offering more sophisticated styling and features while maintaining Hyundai's value proposition."
+
+  - name: "Third Generation (TL)"
+    start_year: 2015
+    end_year: 2020
+    description: "The third-generation Tucson featured more premium styling with Hyundai's signature hexagonal grille and sculptured body sides. Slightly larger than its predecessor, it offered improved passenger and cargo space. Engine options evolved to focus on efficiency with improved four-cylinder units, including turbocharged variants in some markets. The interior represented a major step forward with better materials, design, and technology, featuring an available larger touchscreen infotainment system and expanded active safety features. A significant refresh in 2019 updated the styling and added more technology features. This generation further established the Tucson as one of Hyundai's global best-selling models, competing effectively with established rivals like the Toyota RAV4 and Honda CR-V."
+
+  - name: "Fourth Generation (NX4)"
+    start_year: 2020
+    end_year: null
+    description: "The current Tucson features a revolutionary design with a 'parametric dynamics' theme, incorporating jewel-like surface detailing, hidden daytime running lights that blend into the grille when not illuminated, and angular wheel arches. Significantly larger than its predecessor, it offers more passenger and cargo space while maintaining compact exterior dimensions. Engine options vary by market but center around efficient four-cylinder units, with significant emphasis on electrified powertrains including hybrid, plug-in hybrid, and in some markets, fuel cell variants. The interior represents a complete reinvention with a minimalist approach featuring a 10.25-inch digital instrument cluster, 10.25-inch touchscreen infotainment system, and touch-sensitive controls. Technology has advanced significantly with features like remote smart parking assist, digital key functionality, and Hyundai's comprehensive SmartSense safety suite. This generation aims to position the Tucson as a design and technology leader in its segment rather than merely a value alternative, reflecting Hyundai's continued upmarket progression while maintaining its stronghold in the critical compact crossover market."
