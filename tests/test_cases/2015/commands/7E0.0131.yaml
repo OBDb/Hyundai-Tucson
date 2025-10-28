@@ -18,3 +18,15 @@ test_cases:
 - expected_values:
     CLR_DIST: 8053
   response: 7E80441311F75
+- expected_values:
+    CLR_DIST: 8061
+  response: 7E80441311F7D
+- expected_values:
+    CLR_DIST: 8062
+  response: 7E80441311F7E
+- expected_values:
+    CLR_DIST: 8063
+  response: 7E80441311F7F
+- expected_values:
+    CLR_DIST: 8064
+  response: 7E80441311F80
