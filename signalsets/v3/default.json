@@ -6,7 +6,7 @@
     {"id": "TUCSON_TP_RL", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "TUCSON_TP_RR", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2021, 2024], "from": 2026 },
   "signals": [
     {"id": "TUCSON_FLI_VOL", "path": "Fuel",  "fmt": {"bix": 32, "len": 8,  "max": 255,        "unit": "liters"     }, "name": "Fuel level (volume)"},
     {"id": "TUCSON_ODO_KM",  "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (Metric)",   "suggestedMetric": "odometer"},
