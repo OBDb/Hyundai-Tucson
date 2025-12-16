@@ -21,12 +21,12 @@ test_cases:
     7CE100A62B002C00000
     7CE210014A000000000
 - expected_values:
-    TUCSON_FLI_VOL: 40
-  response: |-
-    7CE100A62B002C00000
-    7CE210028AE00000000
-- expected_values:
     TUCSON_FLI_VOL: 255
   response: |-
     7CE100A62B002C00000
     7CE2100FF9800000000
+- expected_values:
+    TUCSON_FLI_VOL: 255
+  response: |-
+    7CE100A62B002C00000
+    7CE2100FF9F00000000
