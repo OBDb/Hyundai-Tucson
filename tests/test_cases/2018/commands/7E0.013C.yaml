@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     CATEMP11: 582.9
   response: 7E804413C1855
+- expected_values:
+    CATEMP11: 673.8
+  response: 7E804413C1BE2
+- expected_values:
+    CATEMP11: 725.6
+  response: 7E804413C1DE8
