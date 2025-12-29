@@ -90,3 +90,5 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "7A0":
   - 7A0.7A8.22C00B|fc=1:TUCSON_TP_FL,TUCSON_TP_FR,TUCSON_TP_RL,TUCSON_TP_RR
+  "7E1":
+  - 7E1.7E9.0131
