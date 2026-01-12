@@ -3,6 +3,7 @@ supported_commands_by_ecu:
   "7C6":
   - 7C6.7CE.22B002:TUCSON_FLI_VOL,TUCSON_ODO_KM,TUCSON_ODO_MI
   "7DF":
+  - 7DF.0111
   - 7DF.012F
   - 7DF.0131
   - 7DF.0142
