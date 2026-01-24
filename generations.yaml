@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Hyundai_Tucson"
+
 generations:
   - name: "First Generation (JM)"
     start_year: 2004
@@ -11,7 +14,7 @@ generations:
 
   - name: "Third Generation (TL)"
     start_year: 2015
-    end_year: 2020
+    end_year: 2021
     description: "The third-generation Tucson featured more premium styling with Hyundai's signature hexagonal grille and sculptured body sides. Slightly larger than its predecessor, it offered improved passenger and cargo space. Engine options evolved to focus on efficiency with improved four-cylinder units, including turbocharged variants in some markets. The interior represented a major step forward with better materials, design, and technology, featuring an available larger touchscreen infotainment system and expanded active safety features. A significant refresh in 2019 updated the styling and added more technology features. This generation further established the Tucson as one of Hyundai's global best-selling models, competing effectively with established rivals like the Toyota RAV4 and Honda CR-V."
 
   - name: "Fourth Generation (NX4)"
