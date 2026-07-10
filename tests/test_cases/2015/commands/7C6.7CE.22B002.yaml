@@ -1,0 +1,27 @@
+command_id: 7C6.7CE.22B002
+test_cases:
+- expected_values:
+    TUCSON_FLI_VOL: 28
+  response: |-
+    7CE100A62B002C00000
+    7CE21001CAA00AAAAAA
+- expected_values:
+    TUCSON_FLI_VOL: 63
+  response: |-
+    7CE100A62B002C00000
+    7CE21003FA400AAAAAA
+- expected_values:
+    TUCSON_FLI_VOL: 64
+  response: |-
+    7CE100A62B002C00000
+    7CE210040A400AAAAAA
+- expected_values:
+    TUCSON_FLI_VOL: 67
+  response: |-
+    7CE100A62B002C00000
+    7CE210043A100AAAAAA
+- expected_values:
+    TUCSON_FLI_VOL: 85
+  response: |-
+    7CE100A62B002C00000
+    7CE210055A500AAAAAA
