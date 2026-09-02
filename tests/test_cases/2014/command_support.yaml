@@ -64,6 +64,8 @@ supported_commands_by_ecu:
   - 7E0.0155:STSO2FT1
   - 7E0.0156:LGSO2FT1
   - 7E0.0159:FRP_ABS
+  "7E1":
+  - 7E1.7E9.0131
 unsupported_commands_by_ecu:
   "7A0":
   - 7A0.7A8.22C00B|fc=1:TUCSON_TP_FL,TUCSON_TP_FR,TUCSON_TP_RL,TUCSON_TP_RR
