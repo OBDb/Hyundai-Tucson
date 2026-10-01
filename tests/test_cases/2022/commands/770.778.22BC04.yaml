@@ -9,6 +9,16 @@ test_cases:
     TUCSON_LOCK_FR: 0
   response: |-
     778100B62BC04B03770
+    778212000000E00AAAA
+- expected_values:
+    TUCSON_BELT_RL: 1
+    TUCSON_BELT_RM: 1
+    TUCSON_BELT_RR: 1
+    TUCSON_GEAR_R: 0
+    TUCSON_LOCK_FL: 0
+    TUCSON_LOCK_FR: 0
+  response: |-
+    778100B62BC04B03770
     778212001000E00AAAA
 - expected_values:
     TUCSON_BELT_RL: 1
