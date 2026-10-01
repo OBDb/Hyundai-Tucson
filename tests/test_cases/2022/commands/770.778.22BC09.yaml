@@ -18,3 +18,9 @@ test_cases:
   response: |-
     778100B62BC09002003
     77821CC00040030AAAA
+- expected_values:
+    TUCSON_HL_HIGH: 0
+    TUCSON_HL_LOW: 0
+  response: |-
+    778100B62BC09002003
+    77821CC0004C000AAAA
