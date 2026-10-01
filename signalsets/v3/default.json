@@ -1,4 +1,11 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" },
+    { "hdr": "7E2", "type": "hybridControl" },
+    { "hdr": "7E4", "type": "battery" },
+    { "hdr": "7E7", "type": "abs" }
+  ],
+  "commands": [
 { "hdr": "740", "rax": "748", "dbg": true, "cmd": {"22": "01A1"}, "freq": 0.25,
   "signals": [
     {"id": "TUCSON_AWD_CALC_CMD_TQ",    "path": "Engine", "fmt": {"bix": 40,  "len": 16, "max": 4095.875, "min": -4096,                  "div": 8,     "sign": true, "unit": "newtonMeters" }, "name": "4WD calculated, commanded torque"},
