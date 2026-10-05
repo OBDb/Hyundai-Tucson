@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.210A
+command_id: 7E0.7E8.210A|f=-2021
 test_cases:
 - expected_values:
     TUCSON_KNOCK_RETARD_CYL_1_ALT: 0

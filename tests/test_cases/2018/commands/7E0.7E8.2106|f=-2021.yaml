@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2106
+command_id: 7E0.7E8.2106|f=-2021
 test_cases:
 - expected_values:
     TUCSON_DPF_REGENERATION_STATE: 1
