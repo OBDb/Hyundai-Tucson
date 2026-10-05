@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.210B
+command_id: 7E0.7E8.210B|f=-2021
 test_cases:
 - expected_values:
     TUCSON_DI_TIME_1: 25.98611
