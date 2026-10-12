@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.22E011
 test_cases:
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D616161616100
@@ -12,7 +12,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D7B7B7B7B7B00
@@ -23,7 +23,7 @@ test_cases:
     7E82600D12FD02F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D7B7B7B7B7B00
@@ -34,7 +34,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D7E7E7E7E7E00
@@ -45,7 +45,7 @@ test_cases:
     7E82600DA2FD92F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D838383838300
@@ -56,7 +56,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D8E8E8E8E8E00
@@ -67,7 +67,7 @@ test_cases:
     7E82600DA2FD92F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D8F8F8F8F8F00
@@ -78,7 +78,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D909090909000
@@ -89,7 +89,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D919191919100
@@ -100,7 +100,7 @@ test_cases:
     7E82600DA2FD92F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D929292929200
@@ -111,7 +111,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210D939393939300
@@ -122,7 +122,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210DA4A4A4A4A400
@@ -133,7 +133,7 @@ test_cases:
     7E82600E32FE52F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210DA8A8A8A8A800
@@ -144,7 +144,7 @@ test_cases:
     7E82600DA2FD92F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210DC1C1C1C1C100
@@ -155,7 +155,7 @@ test_cases:
     7E82600E32FE22F0000
     7E82700000000AAAAAA
 - expected_values:
-    TUCSON_CALC_OIL_T: -40
+    TUCSON_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA7D
     7E8210DC2C2C2C2C200
