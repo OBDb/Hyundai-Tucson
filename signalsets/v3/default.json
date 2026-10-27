@@ -122,7 +122,7 @@
     {"id": "TUCSON_ODO_KM",  "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 16777215,           "nullmin": 0,                   "unit": "kilometers" }, "name": "Odometer, metric",   "suggestedMetric": "odometer"},
     {"id": "TUCSON_ODO_MI",  "path": "Trips", "fmt": {"bix": 72, "len": 24, "max": 16777215,           "nullmin": 0,                   "unit": "miles"      }, "name": "Odometer, imperial", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TUCSON_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "TUCSON_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
