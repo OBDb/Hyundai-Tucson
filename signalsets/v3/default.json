@@ -309,7 +309,7 @@
     {"id": "TUCSON_STFT_B1_IDLE", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "blsb": true, "max": 100,   "mul": 0.046875,                  "sign": true, "unit": "percent" }, "name": "Short term fuel % trim, bank 1 idle"},
     {"id": "TUCSON_STFT_B1",      "path": "Fuel", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 99.99, "mul": 0.0030517578, "add": -100,               "unit": "percent" }, "name": "Short term fuel % trim, bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "16"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "16"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2013, "from": 2016 },
   "signals": [
     {"id": "TUCSON_KNOCK_RETARD_CYLINDER_1", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #1"},
     {"id": "TUCSON_KNOCK_RETARD_CYLINDER_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #2"},
