@@ -1,6 +1,14 @@
 command_id: 7E0.7E8.22E010
 test_cases:
 - expected_values:
+    TUCSON_MAF_RATE: 6.69762
+  response: |-
+    7E8101F62E010BF1F00
+    7E82100201C8F026602
+    7E8223B213C21231500
+    7E82300B48879058205
+    7E824FFFF9E10AAAAAA
+- expected_values:
     TUCSON_MAF_RATE: 3.22164
   response: |-
     7E8101F62E010BF1F00
