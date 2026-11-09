@@ -1,0 +1,22 @@
+command_id: 770.778.22BC04
+test_cases:
+- expected_values:
+    TUCSON_BELT_RL: 0
+    TUCSON_BELT_RM: 0
+    TUCSON_BELT_RR: 1
+    TUCSON_GEAR_R: 0
+    TUCSON_LOCK_FL: 0
+    TUCSON_LOCK_FR: 0
+  response: |-
+    778100B62BC04BFFEBF
+    7782178000E0200AAAA
+- expected_values:
+    TUCSON_BELT_RL: 0
+    TUCSON_BELT_RM: 0
+    TUCSON_BELT_RR: 1
+    TUCSON_GEAR_R: 0
+    TUCSON_LOCK_FL: 0
+    TUCSON_LOCK_FR: 0
+  response: |-
+    778100B62BC04BFFEBF
+    7782178200E0200AAAA
