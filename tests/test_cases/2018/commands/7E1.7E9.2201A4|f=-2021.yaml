@@ -3,7 +3,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 238
     TUCSON_CLUTCH_2_T: 222
-    TUCSON_GEAR_CUR: 1
+    TUCSON_GEAR_CUR: '1'
     TUCSON_GEAR_NXT: 1
   response: |-
     7E910316201A4FFFFFF
@@ -17,7 +17,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 236
     TUCSON_CLUTCH_2_T: 222
-    TUCSON_GEAR_CUR: 1
+    TUCSON_GEAR_CUR: '1'
     TUCSON_GEAR_NXT: 1
   response: |-
     7E910316201A4FFFFFF
@@ -31,7 +31,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 244
     TUCSON_CLUTCH_2_T: 224
-    TUCSON_GEAR_CUR: 4
+    TUCSON_GEAR_CUR: '4'
     TUCSON_GEAR_NXT: 3
   response: |-
     7E910316201A4FFFFFF
@@ -45,7 +45,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 234
     TUCSON_CLUTCH_2_T: 222
-    TUCSON_GEAR_CUR: 2
+    TUCSON_GEAR_CUR: '2'
     TUCSON_GEAR_NXT: 2
   response: |-
     7E910316201A4FFFFFF
@@ -59,7 +59,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 218
     TUCSON_CLUTCH_2_T: 216
-    TUCSON_GEAR_CUR: 4
+    TUCSON_GEAR_CUR: '4'
     TUCSON_GEAR_NXT: 3
   response: |-
     7E910316201A4FFFFFF
@@ -73,7 +73,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 234
     TUCSON_CLUTCH_2_T: 228
-    TUCSON_GEAR_CUR: 6
+    TUCSON_GEAR_CUR: '6'
     TUCSON_GEAR_NXT: 5
   response: |-
     7E910316201A4FFFFFF
@@ -87,7 +87,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 252
     TUCSON_CLUTCH_2_T: 230
-    TUCSON_GEAR_CUR: 6
+    TUCSON_GEAR_CUR: '6'
     TUCSON_GEAR_NXT: 6
   response: |-
     7E910316201A4FFFFFF
@@ -101,7 +101,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 246
     TUCSON_CLUTCH_2_T: 226
-    TUCSON_GEAR_CUR: 3
+    TUCSON_GEAR_CUR: '3'
     TUCSON_GEAR_NXT: 3
   response: |-
     7E910316201A4FFFFFF
@@ -115,7 +115,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 240
     TUCSON_CLUTCH_2_T: 226
-    TUCSON_GEAR_CUR: 4
+    TUCSON_GEAR_CUR: '4'
     TUCSON_GEAR_NXT: 4
   response: |-
     7E910316201A4FFFFFF
@@ -129,7 +129,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 240
     TUCSON_CLUTCH_2_T: 224
-    TUCSON_GEAR_CUR: 5
+    TUCSON_GEAR_CUR: '5'
     TUCSON_GEAR_NXT: 5
   response: |-
     7E910316201A4FFFFFF
@@ -143,7 +143,7 @@ test_cases:
 - expected_values:
     TUCSON_CLUTCH_1_T: 238
     TUCSON_CLUTCH_2_T: 226
-    TUCSON_GEAR_CUR: 5
+    TUCSON_GEAR_CUR: '5'
     TUCSON_GEAR_NXT: 5
   response: |-
     7E910316201A4FFFFFF
