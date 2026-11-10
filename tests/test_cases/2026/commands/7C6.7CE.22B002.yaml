@@ -1,6 +1,13 @@
 command_id: 7C6.7CE.22B002
 test_cases:
 - expected_values:
+    TUCSON_FLI_VOL: 28
+    TUCSON_ODO_MI: 1474
+  response: |-
+    7CE100F62B002D00000
+    7CE2100389300000000
+    7CE2205C20000000000
+- expected_values:
     TUCSON_FLI_VOL: 40.5
     TUCSON_ODO_MI: 1435
   response: |-
