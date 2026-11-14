@@ -66,6 +66,7 @@ supported_commands_by_ecu:
   - 7E0.010E:SPARKADV
   - 7E0.010F:IAT
   - 7E0.0111:TP
+  - 7E0.011C:OBDSUP
   - 7E0.011F:RUNTM
   - 7E0.012E:EVAP_PCT
   - 7E0.012F:FLI
