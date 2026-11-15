@@ -43,6 +43,13 @@ test_cases:
     7CE21003FA600000000
     7CE223396AAAAAAAAAA
 - expected_values:
+    TUCSON_FLI_VOL: 32
+    TUCSON_ODO_MI: 13212
+  response: |-
+    7CE100F62B002D00000
+    7CE2100409B00000000
+    7CE22339CAAAAAAAAAA
+- expected_values:
     TUCSON_FLI_VOL: 44.5
     TUCSON_ODO_MI: 8793
   response: |-
@@ -56,13 +63,6 @@ test_cases:
     7CE100F62B002D00000
     7CE21005F9A00000000
     7CE223308AAAAAAAAAA
-- expected_values:
-    TUCSON_FLI_VOL: 48
-    TUCSON_ODO_MI: 8793
-  response: |-
-    7CE100F62B002D00000
-    7CE2100609D00000000
-    7CE222259AAAAAAAAAA
 - expected_values:
     TUCSON_ODO_MI: 13207
   response: |-
