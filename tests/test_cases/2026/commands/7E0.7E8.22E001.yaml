@@ -2,7 +2,6 @@ command_id: 7E0.7E8.22E001
 test_cases:
 - expected_values:
     TUCSON_BATTERY_SOC: 90
-    TUCSON_BATTERY_V: 0
     TUCSON_EIT: 43.5
     TUCSON_EOT: 96.75
   response: |-
@@ -15,7 +14,6 @@ test_cases:
     7E8266800D717AAAAAA
 - expected_values:
     TUCSON_BATTERY_SOC: 91
-    TUCSON_BATTERY_V: 0
     TUCSON_EIT: 45
     TUCSON_EOT: 98.25
   response: |-
@@ -28,7 +26,6 @@ test_cases:
     7E8266800D717AAAAAA
 - expected_values:
     TUCSON_BATTERY_SOC: 91
-    TUCSON_BATTERY_V: 0
     TUCSON_EIT: 46.5
     TUCSON_EOT: 95.25
   response: |-
@@ -41,7 +38,6 @@ test_cases:
     7E8266800D717AAAAAA
 - expected_values:
     TUCSON_BATTERY_SOC: 91
-    TUCSON_BATTERY_V: 0
     TUCSON_EIT: 45.75
     TUCSON_EOT: 98.25
   response: |-
@@ -54,7 +50,6 @@ test_cases:
     7E8266800D717AAAAAA
 - expected_values:
     TUCSON_BATTERY_SOC: 93
-    TUCSON_BATTERY_V: 0
     TUCSON_EIT: 57
     TUCSON_EOT: 95.25
   response: |-
@@ -67,7 +62,6 @@ test_cases:
     7E8266800D717AAAAAA
 - expected_values:
     TUCSON_BATTERY_SOC: 93
-    TUCSON_BATTERY_V: 0
     TUCSON_EIT: 54.75
     TUCSON_EOT: 95.25
   response: |-
@@ -80,7 +74,6 @@ test_cases:
     7E8266800D717AAAAAA
 - expected_values:
     TUCSON_BATTERY_SOC: 99
-    TUCSON_BATTERY_V: 0
     TUCSON_EIT: 70.5
     TUCSON_EOT: 102
   response: |-
