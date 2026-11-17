@@ -48,7 +48,7 @@
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "TUCSON_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
-    {"id": "TUCSON_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
+    {"id": "TUCSON_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 2,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC06"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
@@ -162,13 +162,13 @@
 { "hdr": "7D6", "rax": "7DE", "cmd": {"21": "06"}, "freq": 15, "filter": { "to": 2021 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TUCSON_FL_TP", "path": "Tires",  "fmt": {            "len": 8, "max": 3.51,             "mul": 0.01378952,             "unit": "bars"    }, "name": "Front left tire pressure",     "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "TUCSON_FL_TT", "path": "Engine", "fmt": {"bix": 8,   "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "TUCSON_FL_TT", "path": "Engine", "fmt": {"bix": 8,   "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Front left tire temperature"},
     {"id": "TUCSON_FR_TP", "path": "Tires",  "fmt": {"bix": 32,  "len": 8, "max": 3.51,             "mul": 0.01378952,             "unit": "bars"    }, "name": "Front right tire pressure",    "suggestedMetric": "frontRightTirePressure"},
     {"id": "TUCSON_FR_TT", "path": "Engine", "fmt": {"bix": 40,  "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
     {"id": "TUCSON_RL_TP", "path": "Tires",  "fmt": {"bix": 64,  "len": 8, "max": 3.51,             "mul": 0.01378952,             "unit": "bars"    }, "name": "Rear left tire pressure",      "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "TUCSON_RL_TT", "path": "Engine", "fmt": {"bix": 72,  "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "TUCSON_RL_TT", "path": "Engine", "fmt": {"bix": 72,  "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Rear left tire temperature"},
     {"id": "TUCSON_RR_TP", "path": "Tires",  "fmt": {"bix": 96,  "len": 8, "max": 3.51,             "mul": 0.01378952,             "unit": "bars"    }, "name": "Rear right tire pressure",     "suggestedMetric": "rearRightTirePressure"},
-    {"id": "TUCSON_RR_TT", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"}
+    {"id": "TUCSON_RR_TT", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "00"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
@@ -407,7 +407,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E001"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
-    {"id": "TUCSON_BATTERY_V",                "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 17.37,             "mul": 17.37, "div": 255,                                           "unit": "volts"   }, "name": "Battery voltage",                "suggestedMetric": "starterBatteryVoltage"},
+    {"id": "TUCSON_BATTERY_V",                "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 17.37,             "mul": 17.37, "div": 255,             "nullmin": 0,                 "unit": "volts"   }, "name": "Battery voltage",                "suggestedMetric": "starterBatteryVoltage"},
     {"id": "TUCSON_BATTERY_V_AFTER_IGNITION", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 17.37,             "mul": 17.37, "div": 255,             "nullmin": 0,                 "unit": "volts"   }, "name": "Battery voltage after ignition"},
     {"id": "TUCSON_BATTERY_SOC",              "path": "Battery", "fmt": {"bix": 48,  "len": 8, "max": 255,                                                                   "nullmax": 255, "unit": "percent" }, "name": "12V battery state of charge"},
     {"id": "TUCSON_EIT",                      "path": "Engine",  "fmt": {"bix": 264, "len": 8, "max": 143,   "min": -48, "mul": 3,     "div": 4,   "add": -48,                               "unit": "celsius" }, "name": "Intake air temperature",         "suggestedMetric": "intakeAirTemperature"},
