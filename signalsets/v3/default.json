@@ -50,7 +50,7 @@
     {"id": "TUCSON_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
     {"id": "TUCSON_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 2,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC06"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC06"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
     {"id": "TUCSON_BRAKE_LIGHT", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake light"}
   ]},
@@ -148,7 +148,7 @@
     {"id": "TUCSON_TIRE_RL_VSS_V3", "path": "Movement", "fmt": {"bix": 64, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "TUCSON_TIRE_RR_VSS_V3", "path": "Movement", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "C101"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "C101"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023], "from": 2027 },
   "signals": [
     {"id": "TUCSON_FL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "TUCSON_FR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
@@ -420,7 +420,7 @@
     {"id": "TUCSON_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 3"},
     {"id": "TUCSON_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
     {"id": "TUCSON_BOOST_P_UP",     "path": "Engine", "fmt": {"bix": 280, "len": 16, "blsb": true, "max": 5111, "mul": 39, "div": 500, "unit": "unknown" }, "name": "Boost pressure upstream"},
     {"id": "TUCSON_BOOST_P_UP_DES", "path": "Engine", "fmt": {"bix": 312, "len": 16, "blsb": true, "max": 5111, "mul": 39, "div": 500, "unit": "unknown" }, "name": "Boost pressure upstream, desired"}
@@ -430,7 +430,7 @@
     {"id": "TUCSON_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "Aux battery state of charge"},
     {"id": "TUCSON_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "Aux battery state of health"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E005"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E005"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
     {"id": "TUCSON_GDI_IT_A1", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliseconds" }, "name": "Gasoline direct injection time bank a, 1"},
     {"id": "TUCSON_GDI_IT_A2", "path": "Engine", "fmt": {"bix": 240, "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliseconds" }, "name": "Gasoline direct injection time bank a, 2"},
@@ -471,7 +471,7 @@
     {"id": "TUCSON_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 3"},
     {"id": "TUCSON_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00D"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TUCSON_MISFIRES_C1_CUR",                                "path": "Engine", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, current, cylinder 1"},
     {"id": "TUCSON_MISFIRES_C2_CUR",                                "path": "Engine", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, current, cylinder 2"},
@@ -656,7 +656,7 @@
   "signals": [
     {"id": "TUCSON_CURRENT_GEAR_7E1_2", "path": "Transmission", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
     {"id": "TUCSON_RPM_7E1",                   "path": "Movement",     "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM",                               "suggestedMetric": "engineSpeed"},
     {"id": "TUCSON_VSS_7E1",                   "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
